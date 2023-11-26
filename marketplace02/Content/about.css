@@ -1,0 +1,53 @@
+.minus {
+    border: solid 2px #D3D3D3;
+    border-radius: 4px;
+    text-align: center;
+    padding: 4px
+}
+.vector {
+    border: solid 2px #D3D3D3;
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px
+}
+.preco{
+    font-family: Arial;
+    font-size: 20px
+}
+.bloco-itens{
+   display: flex;
+   flex-direction: row;
+   text-align: center;
+   justify-content: center;
+   align-items: center; 
+  
+   gap: 20px 30px
+}
+.bloco-global {
+    display: flex;
+    flex-direction: row;
+}
+.comprar{
+    margin-top: 200px;
+    margin-left: 300px;
+        
+
+}
+.total{
+    font-size: 25px;
+    color: black;
+   
+}
+button {
+    padding: 10px;
+    border: solid 2px #6A5ACD;
+    background-color: #6A5ACD;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 700
+}
+.cupom{
+    color: black;
+    font-size: 16px
+}
