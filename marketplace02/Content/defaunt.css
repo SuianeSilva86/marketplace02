@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+}
+.princical {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    border-radius:30px;
+    border: 5px solid ;
+}
+
+.cafeiteira-1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+
+.anuncio {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px
+}
+
+.cafeiteira-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 100px
+}
+
+.anuncio2 {
+    font-size: 20px
+}
+
+.cards{
+    display: flex;
+    flex-direction:row;
+    gap: 100px 100px
+
+}
+.title{
+    margin-bottom: 50px;
+    margin-left: 500px
+}
+
+.card {
+    margin-left: -10px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.buy{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.buy__now{
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    font-size: 15px;
+    color: aliceblue;
+}
+.buy__aadCart{
+    display: flex;
+    margin-top: 20px;
+    color: black
+}
+.categorias{
+    margin-left: 500px;
+    margin-top: 90px
+}
+.card-category-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    height: 150px;
+    width: 380px;
+    border-radius: 10px;
+    text-align: start;
+    align-items: center;
+    background-color: antiquewhite
+
+}
+.nome-loja {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px
+}
+.categorias-bloco {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card-category-1 {
+    display: flex;
+    width: calc(33.33% - 20px); /* Largura de cada item */
+    margin: 10px; /* Espaçamento entre os itens */
+    float: left; /* Colocar os itens em linha */
+    box-sizing: border-box; /* Considerar padding e borda dentro da largura definida */
+}
+.cust{
+    margin-top: 20px
+}
+.tamanho {
+    height: 120px;
+    background-color: #f0f0f0;
+}
+
+.tamanho-2 {
+    height: 190px;
+    background-color: #e0e0e0;
+}
+
+.tamanho-3 {
+    height: 220px;
+    background-color: #d0d0d0;
+}
+
+.tamanho-4 {
+    height: 300px;
+    margin-top: -100px;
+    background-color: #c0c0c0;
+}
+
+.tamanho-5 {
+    height: 215px;
+    margin-top: -20px;
+    background-color: #b0b0b0;
+}
+
+.tamanho-6 {
+    height: 183px;
+    background-color: #a0a0a0;
+}
+
